@@ -1,0 +1,198 @@
+
+
+.wrapper {
+    margin-left: 150px;
+    margin-right: 150px;
+        
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    
+}
+body {
+    background-color: gainsboro;
+}
+
+header {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+header h1{
+    color: rgb(46, 157, 231);
+    font-family:  Arial ;
+    display: inline-block;
+      
+   
+}
+#one-link {
+    background-color: rgb(17, 100, 89);
+}
+
+
+.shop {
+    color: gray;   
+}
+
+   
+
+.social-media{
+   float: right;
+   
+    
+}
+.social-media img{
+    height: 30px;
+    width: 30px;
+    margin-top: 30px;
+}
+
+
+.nav {
+    background-color:rgb(46, 157, 231);
+    list-style-type: none;
+    text-align: left;  
+    
+       }
+nav li  {
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+   
+    
+}
+nav a {
+    color: white;
+
+}
+nav li:hover {
+    background-color: rgb(11, 105, 77);
+} 
+
+.price {
+    float: right;
+    color: white;
+    margin-right: 100px;
+    font-family:   Verdana;
+} 
+
+#one-link {
+    background-color: grayno;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "photo1 photo2 photo3 photo4" "photo5 photo6 photo7 ph8" "ph9 ph10 ph11 ph12"; 
+    padding: 5px;
+}
+   
+
+.grid-container p {
+    display: inline-block;
+    word-wrap: break-word;
+          
+}
+
+.item-price {
+    color: green;
+}
+
+  
+  .photo1 { grid-area: photo1;  }
+  
+  .photo2 { grid-area: photo2;  }
+  
+  .photo3 { grid-area: photo3; }
+  
+  .photo4 { grid-area: photo4; }
+  
+  .photo5 { grid-area: photo5; }
+  
+  .photo6 { grid-area: photo6; }
+  
+  .photo7 { grid-area: photo7; }
+  
+  .ph8 { grid-area: ph8; }
+  
+  .ph9 { grid-area: ph9; }
+  
+  .ph10 { grid-area: ph10; }
+  
+  .ph11 { grid-area: ph11; }
+  
+  .ph12 { grid-area: ph12; }
+
+
+.grid-container  img{
+    height: 150px;
+    width: 150px;
+  }
+  
+
+.add-button {
+      border-radius: 50%;
+      background-color: orange;
+      border: none;
+      color: white;
+       
+}
+
+.order {
+    background-color: gray;
+    float: right;
+    padding: 10px;
+
+}  
+.order img{
+    width: 50px;
+    height: 50px;
+ 
+} 
+.order-text {
+    display: inline-block;
+    color: white;
+  
+}
+
+
+.order-button {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: yellowgreen;
+    
+}
+
+
+footer{
+    background-color: white;
+    height: 50px;
+}
+
+footer li {
+   float: right;
+   margin-top: 9px;
+   margin-right: 50px;
+   padding: 5px;
+   color: black;
+      
+}
+.zastava {
+    float: left;
+    margin-left: 100px;
+}
+  
+footer img {
+    height: 20px;
+    width: 20px;
+}
+
+
+  
+ 

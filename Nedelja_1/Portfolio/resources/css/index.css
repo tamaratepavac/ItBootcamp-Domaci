@@ -1,0 +1,207 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+    
+}
+
+
+html {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color:whitesmoke;
+    background-color: black;
+}
+
+ header {
+    height: 700px;
+ }
+
+.logo-wrapper {
+    padding-top: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    
+    height: 300px;
+    width: 300px;
+ 
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed; 
+    left: 0; 
+    top: 0;
+    background-color: transparent;
+    padding-top: 200px;
+    padding-left: 50px;
+    text-decoration: none;
+    font-size: 17px;
+    
+    }
+
+.navbar  a {
+    text-decoration: none;
+    color: whitesmoke;
+   
+}
+
+
+
+.navbar  li {
+    
+    line-height: 60px;
+    font-size: 18px;
+    padding: 0 5px;
+    list-style: none;
+   
+    
+}
+
+
+.social-media {
+    overflow: hidden;
+    position: fixed; 
+    right: 0; 
+    top: 0;
+    background-color: transparent;
+    padding-right: 50px;
+    padding-top: 200px;
+}
+
+.social-media img {
+    width: 50px;
+    height: 50px;;
+   
+}
+
+.social-media li {
+    list-style: none;
+}
+
+body {
+    
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: black;
+} 
+
+h1 {
+    text-align: center;
+    padding: 50px;
+}
+
+.about {
+    height: 365px;
+    padding-top: 80px; 
+   
+}
+
+
+.about-image {
+    width: 250px;
+    height: 100%;
+    float: left;
+    padding-right: 100px;
+}
+
+
+
+.column {
+    float: right;
+    width: 50%;
+    text-align: left;
+    
+    }
+
+
+.row {
+    float: right;
+    display: flex;
+    clear: both;   
+}
+
+.profile-img  {
+    width: 100px;
+    height: 100px;
+
+}
+
+.portfolio {
+   margin-top: 400px;
+}
+
+main {
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "slika1 slika2 slika2 slika3" "slika1 slika2 slika2 slika3" "slika4 slika4 slika5 slika5";
+  }
+  
+  .slika1 { grid-area: slika1; }
+  
+  .slika2 { grid-area: slika2; }
+  
+  .slika3 { grid-area: slika3; }
+  
+  .slika4 { grid-area: slika4; }
+  
+  .slika5 { grid-area: slika5; }
+
+
+
+.grid-container img {
+    width: 100%;
+    height: 100%;
+    padding:20px;
+}
+
+
+footer {
+    
+    margin-top: 300px;
+    padding-bottom: 100px;
+    text-align: center;
+} 
+
+footer form {
+    display: inline-block;
+    width: 300px;
+}
+
+footer h1 {
+    padding-bottom: 150px;
+}
+footer h4 {
+    padding-bottom: 50px;
+    
+}
+.message textarea {
+    height: 150px;
+    width: 210px;
+}
+
+
+.submit {
+    padding: 2px;
+    width: 100px;
+}
+
+.contact-img {
+    
+    height: 400px;
+    display: inline-block;
+}

@@ -4,11 +4,13 @@ let budzet = 100
 
 if (cena > budzet){
     console.log('Nemate dovoljno novca')
-    console.log(budzet)
+    console.log(`Vas budzet iznosi: ${budzet} dinara`)
 }
 else {
     console.log('Uspešno ste kupili proizvod');
-    console.log(budzet-cena)
+    console.log(`U Vasem budzetu je ostalo: ${budzet-cena} dinara`)
+
+
 }
 }
 
